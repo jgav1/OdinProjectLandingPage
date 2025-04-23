@@ -1,0 +1,159 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: block;   
+  margin: 0px;
+
+}
+.header-container {
+  display: flex;
+  flex-direction: column; 
+  background-color: #1f2937;
+
+  margin:0px
+}
+.menu {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.menu li{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero{
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: flex-end;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.box {
+align-items: start;
+}
+
+button {
+
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 90px ;
+  height: 25px;
+  background-color: #3882f6;
+  border-radius: 4px;
+  color: #f9faf8;
+
+
+}
+
+.hero-image{
+  display: flex;
+  background-color: #aeafb1;
+  color: #E5E7EB;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+.first-section h2 {
+  text-align: center;
+}
+
+.first-section-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+
+
+.first-section-image {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  border-color: #3882f6;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+.image-text{
+  display:flex;
+  width: 15%;
+  height: 15%;
+  align-items: self-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.second-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: right;
+}
+
+footer {
+  background-color: #1f2937;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+.hero h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
